@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMbk4Fzu40vEd9H5A5S/7VJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/enzoribeiro1947/my-personal-projects/blob/main/calculadora\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "8GDaRXl3o_nG"
+      },
+      "outputs": [],
+      "source": [
+        "n1soma = int(input(\"digite um numero inteiro para uma soma \"))\n",
+        "n2soma = int(input(\"digite outro \"))\n",
+        "print(\"a soma é:\", n1soma + n2soma)\n",
+        "\n",
+        "n1sub = int(input(\"digite um numero inteiro para uma subtração \"))\n",
+        "n2sub = int(input(\"digite outro \"))\n",
+        "print(\"a subtração é:\", n1sub - n2sub)\n",
+        "\n",
+        "n1div = int(input(\"digite um numero inteiro para uma divizão \"))\n",
+        "n2div = int(input(\"digite outro \"))\n",
+        "if n2div != 0:\n",
+        "    print(\"Resultado da divisão:\", n1div / n2div)\n",
+        "else:\n",
+        "    print(\"Erro: não é possível dividir por zero\")\n",
+        "\n",
+        "n1mult = int(input(\"digite um numero inteiro para uma multiplicação \"))\n",
+        "n2mult = int(input(\"digite outro \"))\n",
+        "print(\"a multiplicação é:\", n1mult * n2mult)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "MKzXYnbgqooc"
+      }
+    }
+  ]
+}
