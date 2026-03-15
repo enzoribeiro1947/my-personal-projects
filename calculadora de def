@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMBYH2t8pHBnfzGev6m9dAQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/enzoribeiro1947/my-personal-projects/blob/main/calculadora%20de%20def\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "GjUIBsJ8LQ9z"
+      },
+      "outputs": [],
+      "source": [
+        "def soma(n1, n2):\n",
+        "  result = n1 + n2\n",
+        "  print(f\"{n1} + {n2} = {result}\")\n",
+        "\n",
+        "soma((float(input(\"digite o primeiro numero\"))),float(input(\"digite o segundo numero\")))\n",
+        "\n",
+        "def sub(n1, n2):\n",
+        "  result = n1 - n2\n",
+        "  print(f\"{n1} - {n2} = {result}\")\n",
+        "\n",
+        "sub((float(input(\"digite o primeiro numero\"))),float(input(\"digite o segundo numero\")))\n",
+        "\n",
+        "def div(n1, n2):\n",
+        "  result = n1 / n2\n",
+        "  print(f\"{n1} / {n2} = {result}\")\n",
+        "\n",
+        "div((float(input(\"digite o primeiro numero\"))),float(input(\"digite o segundo numero\")))\n",
+        "\n",
+        "def mult(n1, n2):\n",
+        "  result = n1 * n2\n",
+        "  print(f\"{n1} x {n2} = {result}\")\n",
+        "\n",
+        "mult((float(input(\"digite o primeiro numero\"))),float(input(\"digite o segundo numero\")))"
+      ]
+    }
+  ]
+}
